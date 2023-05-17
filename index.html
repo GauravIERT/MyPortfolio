@@ -1,0 +1,83 @@
+<html>
+
+  <head>
+    <tittle>My Portfolio</tittle>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.1/dist/mindar-image-aframe.prod.js"></script>
+
+   <script>    
+     const showInfo = () => {
+      const callButton = document.querySelector("#Icone_call");
+      const wAButton = document.querySelector("#Icone_WA");
+      const emailButton = document.querySelector("#Icone_email");
+      const liButton = document.querySelector("#Icone_Li");
+      const instaButton = document.querySelector("#Icone_insta");
+     
+      callButton.addEventListener("click", event => {
+       window.location.href="tel:+919170659712";
+       });
+      
+      wAButton.addEventListener("click", event => {
+       window.location.href="https://wa.me/919170659712?text=Hi";
+       });
+      
+      emailButton.addEventListener("click", event => {
+       window.location.href="mailto:kumargscientist@gmail.com?subject='Hello'&body='Hi!'";
+       });
+      
+      liButton.addEventListener("click", event => {
+       window.location.href="https://www.linkedin.com/in/gaurav-kumar-593547230";
+       });
+      
+      instaButton.addEventListener("click", event => {
+       window.location.href="https://instagram.com/enigmatic_kumar?igshid=NTc4MTIwNjQ2YQ==";
+       });
+      
+    }
+    AFRAME.registerComponent('mytarget', {
+        init: function () {
+          this.el.addEventListener('targetFound', event => {
+            console.log("target found");
+            showInfo();
+          });
+        }
+    });
+    </script>
+
+  </head>
+
+  <body> 
+
+    <a-scene mindar-image="imageTargetSrc: assets/card-example/targets.mind;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+
+      <a-assets>
+        <img id="card" src="assets/card-example/NameCard.jpeg" />
+        <img id="Call_icone" src="assets/card-example/call.jpg" />
+        <img id="WA_icone" src="assets/card-example/whats.jpg" />
+        <img id="Email_icone" src="assets/card-example/mail.png" />
+        <img id="Li_icone" src="assets/card-example/linked.jpg" />
+        <img id="Insta_icone" src="assets/card-example/insta.jpg" />
+        <a-asset-item id="avatarModel" src="assets/card-example/gaurav.glb"></a-asset-item>
+      </a-assets>
+
+      <a-camera position="0 0 0" look-controls="enabled: false" cursor="fuse: false; rayOrigin: mouse;" raycaster="far: 10000; objects: .clickable"></a-camera>
+     
+      <a-entity id="mytarget" mytarget mindar-image-target="targetIndex: 0">
+        <a-plane src="#card" position="0 0 -0.1" height="1" width="1.75" rotation="0 0 0"></a-plane>
+        <a-circle id="Icone_call" visible="true" class="clickable" src="#Call_icone" position="-0.6 -0.55 0.15" radius="0.1"><a href="tel:+919170659712" data-rel="external"></a></a-circle>
+        <a-circle id="Icone_WA" visible="true" class="clickable" src="#WA_icone" position="-0.3 -0.55 0.15" radius="0.10"></a-circle>
+        <a-circle id="Icone_email" visible="true" class="clickable" src="#Email_icone" position="0 -0.55 0.15" radius="0.10"></a-circle>
+        <a-circle id="Icone_Li" visible="true" class="clickable" src="#Li_icone" position="0.3 -0.55 0.15" radius="0.10"></a-circle>
+        <a-circle id="Icone_insta" visible="true" class="clickable" src="#Insta_icone" position="0.6 -0.55 0.15" radius="0.10"></a-circle>
+        <a-text id="console" visible="false" value="" color="black" align="center" width="2" position="0 -1 0" geometry="primitive:plane; height: 0.1; width: 2;" material="opacity: 0.5"></a-text>
+        <a-gltf-model rotation="0 0 0 " position="1 -0.56 0.1" scale="0.75 0.75 0.75" src="#avatarModel" animation-mixer = "clip: *; loop: repeat;" />          
+      </a-entity>
+
+    </a-scene>
+
+  </body>
+
+</html>
