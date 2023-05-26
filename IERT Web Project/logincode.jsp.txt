@@ -1,0 +1,32 @@
+﻿<%@page import="java.sql.*"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>login Page</title>
+    </head>
+    <body>
+        <%
+            String username=request.getParameter("t1");
+            String password=request.getParameter("t2");
+            try{
+            Connection con=null;
+            Statement st=null;
+            
+            Class.forName("com.mysql.jdbc.Driver");
+            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mnnit","root","");
+            st=con.createStatement();
+            String Query="INSERT INTO login(username,password) VALUES ('"+username+"','"+password+"')";
+            int res=st.executeUpdate(Query);
+            if(res!=0)
+                response.sendRedirect("electro.jsp");
+                
+            else
+                out.println("Data Not Inserted");
+            
+            }
+            catch(Exception ex){out.print(ex.toString());}
+            %>
+    </body>
+</div>
+</html>

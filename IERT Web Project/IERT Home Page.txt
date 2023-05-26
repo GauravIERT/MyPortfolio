@@ -1,0 +1,400 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>IERT  :    Home</title>
+<!-- add icon link -->
+        <link rel = "icon" img src href ="institute.png" 
+        type = "image/x-icon">
+</head>
+<body onload=display_ct();>
+
+
+	<header>
+		<center>
+			<div style="float:left;">
+				<img src="logonew1.png" height="117px" width="226px" />
+			</div>
+			<img src="name33.png" height="80px" width="820px">
+			<button><input type="www.google.co.in" placeholder= "Google Search" align="right" /></button>
+<br>
+<br>
+<nav>
+
+				<hr style="border: 1px solid #ADD8E6;">
+<div class="chip">
+<img src="home.png" alt="Home" width="40" height="40">
+ <a href=""><button class="btn info"><a href="Homepage.html">Home</button></a>
+<img src="institute.png" alt="Institute" width="35" height="30">
+ <a href=""><button class="btn info"><a href="instiute.html" target="_blank">Institute</button></a>
+<img src="academic.png" alt="Academic" width="40" height="45">
+ <a href="academic.jsp" target="_blank"><button class="btn info"> Academic</button></a>
+<img src="department.png" alt="Department" width="35" height="25">
+ <a href=""><button class="btn info"><a href="department.html" target="_blank">Department</button></a>&nbsp;
+<img src="contact.png" alt="Contact Us" width="30" height="20">
+ <a href=""><button class="btn info"><a href="contact us.html" target="_blank">Contact Us</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="admin.jpg" alt="admin" width="40" height="40">
+ <a href="login.jsp" target="_blank"> Admin Login</a>
+&nbsp;&nbsp;|
+  <img src="user_guest.png" alt="New User " width="40" height="40">
+<a href="User login.html" target="_blank">User </a>
+&nbsp;&nbsp;|&nbsp;
+  <img src="student.png" alt="admin" width="40" height="40">
+ <a href="Student login.html" target="_blank"> Student Login</a>
+</br></div>
+</div>
+
+</hr style="border: 1px solid #ADD8E6;">
+</nav><hr style="border: 1px solid #ADD8E6;"/>
+	</header>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+   <script src="script/jquery.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+	<br>
+	
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+  <center>
+      <img src="slide1.png" width="1280px" height="300px">
+  </center>
+      <div class="carousel-caption">
+ 
+ 
+ </div>
+    </div>
+<div class="item">
+ <center>
+      <img src="slide2.png" width="1280px" height="300px">
+ </center>
+      <div class="carousel-caption">
+ 
+ 
+ </div>
+    </div>
+<div class="item">
+ <center>
+      <img src="slide6.jpg" width="1280px" height="300px">
+ </center>
+      <div class="carousel-caption">
+ 
+ 
+ </div>
+    </div>
+  </div>
+   
+
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div><hr style="border: 1px solid #ADD8E6;"/>
+<div>
+    <marquee direction="right" behavior="alternate">
+        <img src="Cocacola.png" width="120" height="40" alt="Cocacola">&nbsp;&nbsp;&nbsp;
+        <img src="acer.jpg" width="120" height="40" alt="Acer">&nbsp;&nbsp;&nbsp;
+        <img src="android.png" width="100" height="40" alt="Android">&nbsp;&nbsp;&nbsp;
+        <img src="dell.jpg" width="100" height="40" alt="Dell">&nbsp;&nbsp;&nbsp;
+        <img src="facebook.jpg" width="100" height="40" alt="Facebook">&nbsp;&nbsp;&nbsp;
+        <img src="ibm.jpg" width="100" height="40" alt="IBM">&nbsp;&nbsp;&nbsp;
+        <img src="infosys.png" width="120" height="40" alt="Infosys">&nbsp;&nbsp;&nbsp;
+        <img src="intel.png" width="120" height="40" alt="Intel">&nbsp;&nbsp;&nbsp;
+        <img src="lenovo.jpg" width="120" height="40" alt="Lenovo">&nbsp;&nbsp;&nbsp;
+        <img src="nvidia.jpg" width="120" height="40" alt="Nvidia">
+    </marquee>
+<center><b><u>Our Recruiters</u></b></center>
+<hr style="border: 1px solid #ADD8E6;"/>
+</div>
+	
+<centre>
+			<h2><u>ANNOUNCEMENTS</u></center></h2>
+
+			<marquee  behavior="scroll" direction="up" scrollamount= 3 height="100px" onmouseover="stop()" onmouseout="start()" style="font-family:Arial Rounded MT; color: #331830" bgcolor="#B0E0E6" >
+				
+			<br><img src="GifNew.gif" alt="New" width ="18" height="12">
+			
+<b><u>Notice 1:</u>Public Institute Notice of 2019-2020.</br>
+
+			<img src="GifNew.gif" alt="New" width ="18" height="12">
+			<u>Notice 2:</u> Enhancing Skill for Enterprise Scale Application Development ((ES)2AD) -2019.</br>
+
+			<img src="GifNew.gif" alt="New" width ="18" height="12">
+			<u>Notice 3:</u> List of short-term course and workshops in various departments...</br>
+
+			<img src="GifNew.gif" alt="New" width ="18" height="12">
+			<u>Notice 4:</u> A self-financed summer training program (7th June - 4th July 2019) On<br> 
+			Enhancing Skill for Enterprise Scale Application Development ((ES)2AD) -2019.<br>
+			by Computer Science and Engineering Department.</b></br>
+			</div></marquee>
+			
+			<a href="Notice.html" target="_blank" style="float:left;"><b>View All</b></a></hr style="border: 1px solid #ADD8E6;">
+		
+			<hr style="border: 1px solid #ADD8E6;" width align="right" />
+		</center>
+	</div>
+	<br/>
+	<div>
+
+
+<style>
+li{
+	margin: 20%;
+}
+</style>
+			<div style="float:left; text-align: center; color:Black; padding: 3%; margin: 2%;border:2px solid #87CEFA; height:850px">
+				<ul style="list-style-type:none;">
+	 <summary><b><u>Facilities</u></b></summary>
+        <li><a>Computer&nbsp;Lab</a></li>
+        <li><a>Health&nbsp;Center</a></li>
+        <li><a>Health&nbsp;Center</a></li>
+	<li><a>Transportation</a></li>
+
+        <li><details>
+          <summary><b>Faculty<br>Corner</b></summary>
+          <br><a>Latest&nbsp;News</a><br/>
+<br>
+          <a>Holidays</a><br/>			
+        </details></li>
+				<li><a>Recruitment </a></li>
+				<li><a>Recruitment </a></li>
+				
+				
+				<li><details>
+					<summary><b>Student Corner</b></summary>
+					<br><a>Achievement</a>
+				</details></li>
+				<li><a>Semester</a></li>
+				<li><a>Practicals</a></li>
+				<li><a>Sessional</a></li>
+				<br><br>
+		<summary><b>Month Calender</b></summary>
+					<script language="javascript" type="text/javascript">
+var day_of_week = new Array('Sun','Mon','Tue','Wed','Thu','Fri','Sat');
+var month_of_year = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+//  DECLARE AND INITIALIZE VARIABLES
+var Calendar = new Date();
+
+var year = Calendar.getFullYear();     // Returns year
+var month = Calendar.getMonth();    // Returns month (0-11)
+var today = Calendar.getDate();    // Returns day (1-31)
+var weekday = Calendar.getDay();    // Returns day (1-31)
+
+var DAYS_OF_WEEK = 7;    // "constant" for number of days in a week
+var DAYS_OF_MONTH = 31;    // "constant" for number of days in a month
+var cal;    // Used for printing
+
+Calendar.setDate(1);    // Start the calendar day at '1'
+Calendar.setMonth(month);    // Start the calendar month at now
+
+
+/* VARIABLES FOR FORMATTING
+NOTE: You can format the 'BORDER', 'BGCOLOR', 'CELLPADDING', 'BORDERCOLOR'
+      tags to customize your caledanr's look. */
+
+var TR_start = '<TR>';
+var TR_end = '</TR>';
+var highlight_start = '<TD WIDTH="30"><TABLE CELLSPACING=0 BORDER=1 BGCOLOR=DEDEFF BORDERCOLOR=CCCCCC><TR><TD WIDTH=20><B><CENTER>';
+var highlight_end   = '</CENTER></TD></TR></TABLE></B>';
+var TD_start = '<TD WIDTH="30"><CENTER>';
+var TD_end = '</CENTER></TD>';
+
+/* BEGIN CODE FOR CALENDAR
+NOTE: You can format the 'BORDER', 'BGCOLOR', 'CELLPADDING', 'BORDERCOLOR'
+tags to customize your calendar's look.*/
+
+cal =  '<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=0 BORDERCOLOR=BBBBBB><TR><TD>';
+cal += '<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=2>' + TR_start;
+cal += '<TD COLSPAN="' + DAYS_OF_WEEK + '" BGCOLOR="#EFEFEF"><CENTER><B>';
+cal += month_of_year[month]  + '   ' + year + '</B>' + TD_end + TR_end;
+cal += TR_start;
+
+//   DO NOT EDIT BELOW THIS POINT  //
+
+// LOOPS FOR EACH DAY OF WEEK
+for(index=0; index < DAYS_OF_WEEK; index++)
+{
+
+// BOLD TODAY'S DAY OF WEEK
+if(weekday == index)
+cal += TD_start + '<B>' + day_of_week[index] + '</B>' + TD_end;
+
+// PRINTS DAY
+else
+cal += TD_start + day_of_week[index] + TD_end;
+}
+
+cal += TD_end + TR_end;
+cal += TR_start;
+
+// FILL IN BLANK GAPS UNTIL TODAY'S DAY
+for(index=0; index < Calendar.getDay(); index++)
+cal += TD_start + '  ' + TD_end;
+
+// LOOPS FOR EACH DAY IN CALENDAR
+for(index=0; index < DAYS_OF_MONTH; index++)
+{
+if( Calendar.getDate() > index )
+{
+  // RETURNS THE NEXT DAY TO PRINT
+  week_day =Calendar.getDay();
+
+  // START NEW ROW FOR FIRST DAY OF WEEK
+  if(week_day == 0)
+  cal += TR_start;
+
+  if(week_day != DAYS_OF_WEEK)
+  {
+
+  // SET VARIABLE INSIDE LOOP FOR INCREMENTING PURPOSES
+  var day  = Calendar.getDate();
+
+  // HIGHLIGHT TODAY'S DATE
+  if( today==Calendar.getDate() )
+  cal += highlight_start + day + highlight_end + TD_end;
+
+  // PRINTS DAY
+  else
+  cal += TD_start + day + TD_end;
+  }
+
+  // END ROW FOR LAST DAY OF WEEK
+  if(week_day == DAYS_OF_WEEK)
+  cal += TR_end;
+  }
+
+  // INCREMENTS UNTIL END OF THE MONTH
+  Calendar.setDate(Calendar.getDate()+1);
+
+}// end for loop
+
+cal += '</TD></TR></TABLE></TABLE>';
+
+//  PRINT CALENDAR
+document.write(cal);
+
+//  End -->
+</script>
+      </div>
+
+    </div>
+		</div>
+	<div>
+		<div>
+			<center><h3><b>E-CONNECT</b></h3></center>
+			<hr style="border: 1px solid #ADD8E6;"/>
+			<div style="display:flex;  justify-content: space-between; align-item:center; padding:5%;">
+				<span>
+					<img src="handshake.png" height="80px" width="90px" />
+					<br><b><center>E-Sahyog</center></b></br>
+				</span>
+				<span>
+					<img src="notice.png" height="80px" width="110px" />
+					<br><b><center><a href="Notice.html" target="_blank">Notice Board</center></b></a></br>
+				</span>
+				<span>
+					<img src="women1.png"  height="80px" width="120px" />
+					<br><b><a href="WomenGri.html" target="_blank">Women Grievance</b></a></br>
+				</span>
+				<span>
+					<img src="griv.png" height="80px" width="155px" />
+					<br><b><a href="https://pgportal.gov.in/" target="_blank">Public Grievance Portal</a></b></br>
+				</span>
+			</div>
+		</div>
+
+		<div>
+			<center><h3><b>COLLABORATION</b></h3></center>
+			<hr style="border: 1px solid #ADD8E6;" />
+			<div style="display:flex;  justify-content: space-between; align-item:center; padding:5%;">
+				<span>
+					<img src="instiute.jpeg" height="80px" width="100px" />
+					<br><b><a href="http://www.gian.iitkgp.ac.in/" target="_blank">Inter & Industry<center><br>Institute</br></a></center></b>
+				</span>
+				<span>
+					<img src="diety.jpeg" height="80px" width="90px"/>
+					   <center><b><a href="https://data.gov.in/keywords/deity" target="_blank"><br>DeitY</br></a></b></center>
+				</span>
+				<span>
+					<img src="NMEICT_final.jpg" />
+					<center><br><b><a href="https://www.it.iitb.ac.in/nmeict/home.html" target="_blank">NMEICT</a></b></br></center>
+				</span>
+				<span>
+					<img src="gian_final.jpg" />
+					<center><br><b><a href="http://www.gian.iitkgp.ac.in/" target="_blank">GIAN</a></b></br></center>
+				</span>
+			</div>
+		</div>
+
+
+		<div>
+			<center><h3><b>NATIONAL ABHIYAAN/PROGRAMME</b></h3>
+			<hr style="border: 1px solid #ADD8E6;" />
+			<div style="display:flex;  justify-content: space-between; align-item:center; padding:5%;">
+				<span>
+					<img src="iicimg.jpg" height="80px" width="80px" />
+					<br><a href="http://iert.ac.in/iip/iic/index.html" target="_blank"><b>Institute's Innovation<br> Portal</br></a></b>
+				</span>
+				<span>
+					<img src="logodigital.jpg"height="80px" width="100px" />
+					<br><a href="https://digitalindia.gov.in/content/about-programme" target="_blank"><b>Digital India <br>Programme</br></a></b>
+				</span>
+				<span>
+					<img src="UAA LOGO.jpeg"height="80px" width="100px" />
+					<br><a href="http://unnatbharatabhiyan.gov.in/" target="_blank"><b>Unnat Bharat <br>Abhiyaan</br></a></b>
+				</span>
+				<span>
+					<img src="vidyalakshmi2.jpg"height="80px" width="100px" />
+					<br><a href="https://www.vidyalakshmi.co.in/" target="_blank"><b>Vidya Lakshmi</b></a></br>
+				</span>
+				<span>
+					<img src="pmrf.png"height="80px" width="130px" />
+					<br><a href="https://may2019.pmrf.in/" target="_blank"><b>PMRF</b></a></br>
+				</span>
+			</div>
+		</div>
+
+	</div>
+
+ <hr style="border: 1px solid #ADD8E6;"/></center>
+<footer>
+			&copy;2019 <a href="#">All Rights are Reserved.</a> <a href="#">IERT Prayagraj</a>
+	
+			Developed by :- <a href="#">Gaurav Kumar CSE(A4), Under the guidance of Dr.Rohit Gupta Sir</a>
+			
+			<div align="right"><script type="text/javascript" > 
+function display_c(){
+var refresh=1000; // Refresh rate in milli seconds
+mytime=setTimeout('display_ct()',refresh)
+}
+
+function display_ct() {
+var x = new Date()
+document.getElementById('ct').innerHTML = x;
+display_c();
+ }
+</script>
+<span id='ct' style="background-color:#E6E6FA" ></span></div>
+	</footer>
+
+	</center>
+
+
+</body>
+
+</html>
